@@ -7,7 +7,7 @@ package ies
 import (
 	"io"
 
-	"github.com/wmnsk/go-gtp/utils"
+	"go-gtp/utils"
 )
 
 // NewBearerQoS creates a new BearerQoS IE.

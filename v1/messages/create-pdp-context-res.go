@@ -5,7 +5,7 @@
 package messages
 
 import (
-	"github.com/wmnsk/go-gtp/v1/ies"
+	"go-gtp/v1/ies"
 )
 
 // CreatePDPContextResponse is a CreatePDPContextResponse Header and its IEs above.

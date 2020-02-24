@@ -14,11 +14,12 @@ import (
 	"sync"
 	"time"
 
+	"go-gtp/v1/ies"
+	"go-gtp/v1/messages"
+	v2ies "go-gtp/v2/ies"
+
 	"github.com/pkg/errors"
 	"github.com/vishvananda/netlink"
-	"github.com/wmnsk/go-gtp/v1/ies"
-	"github.com/wmnsk/go-gtp/v1/messages"
-	v2ies "github.com/wmnsk/go-gtp/v2/ies"
 )
 
 type tpduSet struct {

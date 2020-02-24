@@ -5,8 +5,9 @@
 package messages
 
 import (
+	"go-gtp/v0/ies"
+
 	"github.com/pkg/errors"
-	"github.com/wmnsk/go-gtp/v0/ies"
 )
 
 // DeletePDPContextRequest is a DeletePDPContextRequest Header and its AdditionalIEs abovd.

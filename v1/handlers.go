@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wmnsk/go-gtp/v1/ies"
-	"github.com/wmnsk/go-gtp/v1/messages"
+	"go-gtp/v1/ies"
+	"go-gtp/v1/messages"
 )
 
 // HandlerFunc is a handler for specific GTPv1 message.

@@ -5,8 +5,9 @@
 package messages
 
 import (
+	"go-gtp/v0/ies"
+
 	"github.com/pkg/errors"
-	"github.com/wmnsk/go-gtp/v0/ies"
 )
 
 // EchoRequest is a EchoRequest Header and its AdditionalIEs above.

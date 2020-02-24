@@ -5,10 +5,11 @@ import (
 	"net"
 	"time"
 
+	v2 "go-gtp/v2"
+	"go-gtp/v2/ies"
+	"go-gtp/v2/messages"
+
 	"github.com/pkg/errors"
-	v2 "github.com/wmnsk/go-gtp/v2"
-	"github.com/wmnsk/go-gtp/v2/ies"
-	"github.com/wmnsk/go-gtp/v2/messages"
 )
 
 func handleCreateSessionResponse(s5cConn *v2.Conn, pgwAddr net.Addr, msg messages.Message) error {

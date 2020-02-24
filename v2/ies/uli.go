@@ -8,7 +8,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/wmnsk/go-gtp/utils"
+	"go-gtp/utils"
 )
 
 const (

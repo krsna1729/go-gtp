@@ -8,9 +8,10 @@ import (
 	"testing"
 	"time"
 
+	v2 "go-gtp/v2"
+	"go-gtp/v2/ies"
+
 	"github.com/google/go-cmp/cmp"
-	v2 "github.com/wmnsk/go-gtp/v2"
-	"github.com/wmnsk/go-gtp/v2/ies"
 )
 
 func TestIEs(t *testing.T) {

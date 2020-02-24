@@ -11,10 +11,11 @@ import (
 	"testing"
 	"time"
 
+	v2 "go-gtp/v2"
+	"go-gtp/v2/ies"
+	"go-gtp/v2/messages"
+
 	"github.com/pkg/errors"
-	v2 "github.com/wmnsk/go-gtp/v2"
-	"github.com/wmnsk/go-gtp/v2/ies"
-	"github.com/wmnsk/go-gtp/v2/messages"
 )
 
 func setup(ctx context.Context, doneCh chan struct{}) (cliConn, srvConn *v2.Conn, err error) {
