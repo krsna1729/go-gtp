@@ -15,8 +15,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/wmnsk/go-gtp/v2/ies"
-	"github.com/wmnsk/go-gtp/v2/messages"
+	"go-gtp/v2/ies"
+	"go-gtp/v2/messages"
 )
 
 // Conn represents a GTPv2-C connection.

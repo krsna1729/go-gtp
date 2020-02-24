@@ -7,9 +7,10 @@ package ies_test
 import (
 	"testing"
 
+	v0 "go-gtp/v0"
+	"go-gtp/v0/ies"
+
 	"github.com/google/go-cmp/cmp"
-	v0 "github.com/wmnsk/go-gtp/v0"
-	"github.com/wmnsk/go-gtp/v0/ies"
 )
 
 func TestIE(t *testing.T) {

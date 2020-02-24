@@ -8,8 +8,9 @@ package testutils
 import (
 	"testing"
 
+	"go-gtp/v1/messages"
+
 	"github.com/pascaldekloe/goe/verify"
-	"github.com/wmnsk/go-gtp/v1/messages"
 )
 
 // Serializable is just for testing v2.Messages. Don't use this.

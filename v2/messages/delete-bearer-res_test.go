@@ -7,11 +7,11 @@ package messages_test
 import (
 	"testing"
 
-	"github.com/wmnsk/go-gtp/v2/messages"
-	"github.com/wmnsk/go-gtp/v2/testutils"
+	"go-gtp/v2/messages"
+	"go-gtp/v2/testutils"
 
-	v2 "github.com/wmnsk/go-gtp/v2"
-	"github.com/wmnsk/go-gtp/v2/ies"
+	v2 "go-gtp/v2"
+	"go-gtp/v2/ies"
 )
 
 func TestDeleteBearerResponse(t *testing.T) {

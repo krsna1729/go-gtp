@@ -5,7 +5,7 @@
 package messages
 
 import (
-	"github.com/wmnsk/go-gtp/v1/ies"
+	"go-gtp/v1/ies"
 )
 
 // DeletePDPContextResponse is a DeletePDPContextResponse Header and its IEs above.

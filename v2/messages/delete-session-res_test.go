@@ -7,10 +7,10 @@ package messages_test
 import (
 	"testing"
 
-	v2 "github.com/wmnsk/go-gtp/v2"
-	"github.com/wmnsk/go-gtp/v2/ies"
-	"github.com/wmnsk/go-gtp/v2/messages"
-	"github.com/wmnsk/go-gtp/v2/testutils"
+	v2 "go-gtp/v2"
+	"go-gtp/v2/ies"
+	"go-gtp/v2/messages"
+	"go-gtp/v2/testutils"
 )
 
 func TestDeleteSessionResponse(t *testing.T) {
